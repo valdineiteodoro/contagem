@@ -4,28 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contagem.css">
-
-    <title>super conador</title>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
- <h1> vamos contar</h1>
+        <h1> Tabuada</h1>
     </header>
     <section>
         <div>
-     <p> Inicio: <input type=" number" name="inicio" id="txti"></p>
-     <p>Fim: <input type="numer" name="fim" id="txtf"> </p>
-     <p>Passo <input type="text" name="passo" id="txtp"></p>
-     <p> <input type="button" value="contar" onclick="contar()"></p>
+            <p>Número: <input type="number" name="mun" id="txtn">
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
         </div>
-        <div id='res'>
-            Preparando
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+             
+            </select>
+       
         </div>
     </section>
-    <footer>
-
-    </footer>
-   <script src="contagem.js"></script>
+    <script src="tabuada.js"></script>
+    
 </body>
 </html>
